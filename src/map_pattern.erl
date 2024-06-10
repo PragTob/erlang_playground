@@ -5,7 +5,7 @@
 % commented out to show that there are no warnings
 % fun_map(_Var) ->
 %     io:format("Just a variable!~n");
-% these don't want
+% these don't warn
 fun_map(#{}) ->
     io:format("The map is empty~n");
 fun_map(#{first := FirstValue}) ->
